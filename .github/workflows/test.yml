@@ -2,8 +2,7 @@ name: Run Tests
 
 on:
   push:
-  pull_request:
-    types: [opened, synchronize, reopened]
+    branches: [ "main" ]
 
 jobs:
   test:
